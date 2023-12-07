@@ -1,7 +1,13 @@
 body{
-    background-color: bisque;
+    background-color: hsl(30,38%,92%);
+width: 100vw;
+height: 100vh;
 }
-
-p{
-    color:red
+main{
+    display: flex;
+    width: 45rem;
+    height: 30rem;
+    background-color: black;
+    margin: 12rem 3rem 6rem 9rem;
+padding: 5rem;
 }
