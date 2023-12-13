@@ -1,13 +1,40 @@
+html,
 body{
-    background-color: hsl(30,38%,92%);
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+*{
+ box-sizing: border-box;
+}
+body{
+background-color: hsl(30,38%,92%);
 width: 100vw;
 height: 100vh;
 }
 main{
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 45rem;
     height: 30rem;
-    background-color: black;
-    margin: 12rem 3rem 6rem 9rem;
-padding: 5rem;
+    margin: auto;
+    
+    
+}
+.section-one{
+    width: 20rem;
+    height: 30rem;
+}
+.section-one img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
+.section-two{
+    width: 20rem;
+    height: 30rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0 5px 5px 0;
 }
